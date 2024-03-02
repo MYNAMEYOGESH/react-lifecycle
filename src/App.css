@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #008000;
+}
+
+.buttons{
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  width: 80%;
+}
+
+button {
+  padding:  8px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  color: #fff;
+  cursor: pointer;
+
+}
+
+.btn-success {
+  background-color: #008000;
+}
+.btn-warning {
+  background-color: red;
+}
+
